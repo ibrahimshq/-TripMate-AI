@@ -1,7 +1,7 @@
 import streamlit as st
 from google import genai
 from dotenv import load_dotenv
-
+load_dotenv(r"/Users/mohammadibrahimmohammadishaque/python.py/.env")
 
 client = genai.Client()
 
