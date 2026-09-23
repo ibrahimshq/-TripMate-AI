@@ -4,6 +4,16 @@ from dotenv import load_dotenv
 
 client = genai.Client()
 
+st.set_page_config(
+
+    page_title="TripMate",
+
+    page_icon="✈️"
+
+)
+
+st.title("TripMate")
+
 
 # =========================================================
 # 🎨 CUSTOM DESIGN
